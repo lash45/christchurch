@@ -305,6 +305,7 @@ header {
     margin-right: 10px;
 }
 .menu-btn {
+    font-family: 'Roboto';
     display: none;
 }
 .logo {
