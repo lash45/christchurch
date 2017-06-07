@@ -74,7 +74,8 @@ body{
     float: left;
     width: 100%;
     position:relative;
-    font-family: noto sans;
+    font-family: 'Roboto';
+    font-weight: 100;
 }
 body,ul,h1,h2,h3,h4,h5,h6,p{ 
     list-style:none;
@@ -82,7 +83,7 @@ body,ul,h1,h2,h3,h4,h5,h6,p{
     padding:0;
 }
 h1,h2,h3,h4,h5,h6{
-    font-family:open sans, sans-serif;
+    font-family:'Roboto', sans-serif;
     color:#444;
     letter-spacing: 0.3px;
 }
@@ -153,7 +154,7 @@ section {
 }
 .block {
     float: left;
-    padding:70px 0;
+    padding:30px 0;
     position: relative;
     width: 100%;
 }
@@ -293,7 +294,7 @@ header {
 .topbar p {
     color: #999999;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     line-height: 20px;
     margin-right: 20px;
@@ -304,6 +305,7 @@ header {
     margin-right: 10px;
 }
 .menu-btn {
+    font-family: 'Roboto';
     display: none;
 }
 .logo {
@@ -331,6 +333,7 @@ nav ul li {
 }
 nav ul li.menu-item-has-children:after{
     background: none repeat scroll 0 0 #fff;
+    font-family: 'Roboto';
     bottom: -11.5px;
     height: 23px;
     left: 50%;
@@ -361,8 +364,9 @@ nav ul li:hover:after{
 nav ul li a {
     color: #6a6969;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
+    font-weight: 300;
     padding: 40px 20px;
     width: 100%;
     line-height: 20px;
@@ -390,7 +394,7 @@ nav ul li.menu-item-has-children a:after {
     opacity: 0;
     bottom: 4px;
     content: "\f0ab";
-    font-family: fontawesome;
+    font-family: 'Roboto';
     height: 14px;
     left: 50%;
     margin-left: -7px;
@@ -530,7 +534,7 @@ nav ul li > ul li.menu-item-has-children:hover:before {
     width: 250px;
     height: 0;
     padding: 0 20px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
 
     -webkit-border-radius: 0 0 3px 3px;
@@ -689,7 +693,7 @@ nav ul li > ul li.menu-item-has-children:hover:before {
     text-align: center;
     font-size: 12px;
     letter-spacing: 0.3px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -777,7 +781,7 @@ header.header5 nav {
 .header-timer ul > li span {
     float: left;
     width: 100%;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     color: #c9c9c9;
     line-height: 18px;
@@ -870,7 +874,7 @@ header .social-media {
     margin:0;
 }
 .header9 nav ul li a {
-    font-family: Open Sans;
+    font-family: 'Roboto';
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
@@ -945,7 +949,7 @@ header.header8.sticky nav {
     position: relative;
 }
 .slide1-text {
-    font-family: noto sans;
+    font-family:'Roboto';
     color: #FFF;
     font-size: 16px;
     font-weight: 700;
@@ -984,7 +988,7 @@ header.header8.sticky nav {
 }
 .slide2-title {
     color: #FFFFFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .slide2-title i {
     font-style: normal;
@@ -994,7 +998,7 @@ header.header8.sticky nav {
 .slide2-round {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
     text-align: center;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
 
     -webkit-border-radius: 50%;
@@ -1003,17 +1007,19 @@ header.header8.sticky nav {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
+
+
 .slide2-sub-title img {
     display: table;
     margin: 0 auto 15px;
 }
 .slide2-sub-title {
     color: #FFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .slide3-title {
     color: #FFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .slide3-black {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.82);
@@ -1029,7 +1035,7 @@ header.header8.sticky nav {
 }
 .slide3-desc{
     color: #e5e5e5;
-    font-family: noto sans;
+    font-family:'Roboto';
 }
 
 .wpb_revslider_element {
@@ -1039,14 +1045,14 @@ header.header8.sticky nav {
 }
 .slider4-text1 {
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     font-weight: 900;
 }
 .slider4-text2 {
     color: #595959;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 100;
     letter-spacing: 0.3px;
@@ -1055,7 +1061,7 @@ header.header8.sticky nav {
 .slider4-text3 {
     color: #403d3e;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: normal;
     letter-spacing: 0.3px;
@@ -1063,7 +1069,7 @@ header.header8.sticky nav {
 .slide-btn {
     color: #e8eef5 !important;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: bold;
     line-height: 10px;
@@ -1111,7 +1117,7 @@ header.header8.sticky nav {
 }
 .slide8-title {
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 .slide8-title  span{
@@ -1122,7 +1128,7 @@ header.header8.sticky nav {
     color: #f7f2f2;
     font-size: 15px;
     text-align:center; 
-    font-family: noto sans;
+    font-family:'Roboto';
 }
 .slide8-quote i {
     color: #cacaca;
@@ -1161,7 +1167,7 @@ header.header8.sticky nav {
 }
 .slide9-title {
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-shadow: 0 1px 2px #505050;
 }
@@ -1170,7 +1176,7 @@ header.header8.sticky nav {
 }
 .slide9-subtitle{
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 .slide9-button {
@@ -1191,7 +1197,7 @@ header.header8.sticky nav {
 }
 .slide10-title {
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 800;
 }
 .slide10-title span{
@@ -1200,12 +1206,12 @@ header.header8.sticky nav {
 .slide10-text{
     font-size: 18px;
     font-weight: 500;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #c2c2c2;
 }
 .slide10-button {
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -1225,7 +1231,7 @@ header.header8.sticky nav {
 
 .slide11-title{
     color: #FFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 .slide11-title span{
@@ -1233,7 +1239,7 @@ header.header8.sticky nav {
 }
 .slide11-box{
     background-color: #FFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     color: #383838;
 
@@ -1248,7 +1254,7 @@ header.header8.sticky nav {
 }
 .slide-blk-button{
     color: #FFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #1c1c1c;
 
     -webkit-border-radius: 3px;
@@ -1261,7 +1267,7 @@ header.header8.sticky nav {
     font-size: inherit;
 }
 .slide12-box{
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
     font-weight:700;
     background: #8f3429;
@@ -1276,7 +1282,7 @@ header.header8.sticky nav {
     color: #282828;
     background: #d8c291;
     font-weight:600;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -1286,12 +1292,12 @@ header.header8.sticky nav {
 }
 .slide-quote {
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-style: italic;
 }
 .quote-title{
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -1313,7 +1319,7 @@ header.header8.sticky nav {
 }
 .quote-subtitle{
     color: #FFF;
-    font-family: noto sans;
+    font-family:'Roboto';
 }
 .tp-caption a {
     color: #FFF!important;
@@ -1326,6 +1332,7 @@ header.header8.sticky nav {
 .welcome {
     float: left;
     width: 100%;
+    font-family: 'Roboto';
     text-align: center;
 }
 .welcome h1 {
@@ -1485,7 +1492,7 @@ header.header8.sticky nav {
 .downcount ul li p {
     color: #888;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 10px;
     line-height: 20px;
     margin-top: 2px;
@@ -1494,7 +1501,7 @@ header.header8.sticky nav {
 .event-count > h4 {
     float: left;
     width: 100%;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     text-align: center;
     padding: 15px 15px;
@@ -1585,7 +1592,7 @@ header.header8.sticky nav {
 .service-block > a {
     color: #FFF;
     display: table;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     margin: 20px auto 0;
     padding: 8px 25px;
@@ -1648,7 +1655,7 @@ header.header8.sticky nav {
     width: 100%;
     color: #FFF;
     padding: 10px 20px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     z-index: 1;
 }
 .news-details:before {
@@ -1780,7 +1787,7 @@ h4.new-title a{
 .event-date span {
     float: left;
     width: 100%;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     color: #FFF;
     line-height: 23px;
@@ -1796,7 +1803,7 @@ h4.new-title a{
 .event-date i {
     color: #5f5f5f;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 30px;
     overflow: hidden;
@@ -1808,7 +1815,7 @@ h4.new-title a{
 }
 .event > h3 {
     color: #555;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1835,7 +1842,7 @@ h4.new-title a{
     margin-bottom: 10px;
 }
 .event > span {
-    font-family: noto sans;
+    font-family:'Roboto';
     color: #acacac;
     font-size: 12px;
     margin-right: 30px;
@@ -1950,7 +1957,7 @@ h4.new-title a{
     height: 42px;
     border: 1px solid #f1f1f1;
     padding: 0 20px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #d3d2d2;
     font-size: 12px;
     margin-bottom: 10px;
@@ -1999,7 +2006,7 @@ a.button2 i{
 }
 #msgs,#msgss {
     padding: 0 20px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 600;
 }
@@ -2041,7 +2048,7 @@ a.button2 i{
 .upcoming-event span {
     float: left;
     margin-right: 20px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     color: #FFF;
     line-height: 40px;
@@ -2075,7 +2082,7 @@ a.button2 i{
 .remaining-time span {
     color: #fff;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 20px;
     margin: 5px 0;
@@ -2103,7 +2110,7 @@ a.button2 i{
 }
 .countdown li p {
     margin: 0;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     color: #e9e9e9;
     text-transform: uppercase;
@@ -2112,14 +2119,73 @@ a.button2 i{
     white-space: nowrap;
 }
 
+
+/*****************************
+     MESSAGES
+******************************/
+i {
+    padding: 0px 20px;
+}
+
+#messages{
+    margin: 0px;
+    padding: 20px 0px;
+    color: #ffffff ;
+}
+
+.social{
+
+    margin-top: : 50px;
+    margin-bottom: 50px 
+    padding: 50px 0px;
+
+}
+.subtext p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.subtext{
+    color: white;
+    font-family: 'Roboto'; 
+    font-size: 20px;
+}
+/*
+.bottom-footer p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 10px;
+}*/
+
+h4 {
+    color: white;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
 /*****************************
      CHURCH STORIES
 ******************************/
 .story {
     float: left;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 2px;
+  
 }
+
+
+.zero-padding{
+     padding-left: 1px;
+    padding-right: 0px;
+}
+
+
 .story-detail {
     border-bottom: 1px solid #e3e3e3;
     border-left: 1px solid #e3e3e3;
@@ -2170,7 +2236,7 @@ a.button2 i{
     transition:all 0.3s linear;
 }
 .story-detail > span {
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 12px;
     color: #888888;
     margin-bottom: 20px;
@@ -2413,7 +2479,7 @@ a.button2 i{
     width: 20px;
     height: 34px;
     color: #F3F3F3;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 12px;
     line-height: 30px;
     cursor: pointer;
@@ -2468,7 +2534,7 @@ a.button2 i{
 .tweet > span {
     color: #eeeeee;
     font-weight: 600;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     float: left;
     width: 100%;
@@ -2576,7 +2642,7 @@ a.button2 i{
     height: 60px;
     padding: 10px 20px;
     width: 75%;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     color: #7b7b7b;
 }
@@ -2586,7 +2652,7 @@ a.button2 i{
     float: left;
     width: 25%;
     border: 0;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 700;
     color: #FFF;
@@ -2905,7 +2971,7 @@ a.button2 i{
     margin: 0 1px;
     width: 35px;
     font-weight: 600;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .needed-amount > i {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
@@ -2919,7 +2985,7 @@ a.button2 i{
     width: 100%;
     font-style: normal;
     font-size: 13px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.3px;
 }
 .collected {
@@ -2945,7 +3011,7 @@ a.button2 i{
 .percentage > span{
     color: #666666;
     float: left;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     margin-top: -30px;
     text-transform: uppercase;
@@ -2969,7 +3035,7 @@ a.button2 i{
     text-align: center;
     width: 36px;
     font-weight: 600;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     position: relative;
     z-index: 1;
 
@@ -3011,7 +3077,7 @@ a.button2 i{
 .amount-selection label {
     font-weight: 600;
     font-size: 16px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #555;
 }
 .selections {
@@ -3026,7 +3092,7 @@ a.button2 i{
     border: 1px solid #d1cece;
     height: 35px;
     padding: 10px 15px;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     color: #b5b5b5;
     background: #f8f8f8;
@@ -3203,7 +3269,7 @@ a.button2 i{
 .product-bottom span {
     color: #ffffff;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     line-height: 25px;
     padding: 10px;
@@ -3217,7 +3283,7 @@ a.button2 i{
 .product-bottom > a {
     color: #969696;
     display: table;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 25px;
@@ -3237,7 +3303,7 @@ a.button2 i{
     background-image: none;
     box-shadow: none;
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: bold;
     height: 25px !important;
@@ -3372,7 +3438,7 @@ form.woocommerce-ordering {
     margin-top: 30px;
 }
 .related.products > h2 {
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     text-transform: uppercase;
 }
@@ -3388,7 +3454,7 @@ form.woocommerce-ordering {
     font-weight: 400;
 }
 label {
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
 .cart-btn {
@@ -3468,6 +3534,7 @@ label {
     margin-left: /*-20px*/ -55px;
     margin-top: /*-20px*/ -5px;
     /*opacity: 0;*/
+    padding: 0px;
     text-align: center;
     width: 40px;
     position: absolute;
@@ -3561,7 +3628,7 @@ label {
 .readmore {
     color: #B8B8B8;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     padding-right: 10px;
     position: relative;
@@ -3809,7 +3876,7 @@ label {
 }
 .prayer > span {
     color: #999999;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 11px;
     text-transform: uppercase;
 }
@@ -3976,7 +4043,7 @@ label {
 }
 .member-detail > span {
     font-size: 12px;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 10px;
     float: left;
     width: 100%;
@@ -4048,7 +4115,7 @@ label {
     float: right;
     padding: 13px 40px;
     cursor: pointer;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #555555;
     font-weight: 700;
@@ -4075,7 +4142,7 @@ label {
 /*****************************
     CONTACT US PAGE
 ******************************/
-.title2 {
+/*.title2 {
     float: left;
     margin-bottom: 45px;
     text-align: center;
@@ -4159,7 +4226,7 @@ label {
 .theme-form textarea,.theme-form textarea:focus {
     border: 1px solid #E8E7E7;
     color: #B4B4B4;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     margin-bottom: 12px;
     padding: 10px 20px;
@@ -4241,6 +4308,7 @@ label {
 }
 #message {
     float: left;
+    font-family: 'Roboto';
     margin: 10px 0;
     padding: 0;
     width: 100%;
@@ -4259,11 +4327,11 @@ label {
 #contact #success_page h1 { background: url('images/success.html') left no-repeat; padding-left:22px; }
 
 acronym { border-bottom:1px dotted #ccc; }
-
+*/
 /*****************************
     ABOUT US PAGE
 ******************************/
-.page-top {
+/*.page-top {
     float: left;
     padding-bottom: 50px;
     padding-top: 80px;
@@ -4322,7 +4390,7 @@ acronym { border-bottom:1px dotted #ccc; }
 .simple-text h3 {
     color: #555555;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     margin-bottom: 20px;
     width: 100%;
@@ -4340,7 +4408,7 @@ acronym { border-bottom:1px dotted #ccc; }
     border: 1px solid #CCCDCE;
     color: #666666;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 12px 18px;
     position: relative;
     z-index: 1;
@@ -4475,31 +4543,31 @@ acronym { border-bottom:1px dotted #ccc; }
     -ms-transform:rotateX(0deg);
     -o-transform:rotateX(0deg);
     transform:rotateX(0deg);
-}
+}*/
 
 
 /*****************************
     EVENTS GRID VIEW
 ******************************/
-.events-gridview .category-box {
+/*.events-gridview .category-box {
     float: left;
     margin-bottom: 30px;
-    width: 100%;
+    width: 100%;*/
 }
 
 /*****************************
     TEAM PAGE
 ******************************/
-.team-page .member {
+/*.team-page .member {
     margin-bottom: 30px;
     padding: 0;
-}
+}*/
 
 
 /*****************************
     SERMON SINGLE POST
 ******************************/
-.single-page {
+/*.single-page {
     border: 1px solid #F0F0F0;
     float: left;
     margin-bottom: 20px;
@@ -4533,13 +4601,13 @@ acronym { border-bottom:1px dotted #ccc; }
 .meta li {
     color: #999999;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-right: 30px;
     text-transform: uppercase;
     width: auto;
 }
 .meta li a{
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display: inline-block;
 }
 .single-page .sermon-media {
@@ -4751,7 +4819,7 @@ acronym { border-bottom:1px dotted #ccc; }
 }
 .comments > ul li h5 i {
     float: right;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-style: normal;
     line-height: 20px;
@@ -4768,7 +4836,7 @@ acronym { border-bottom:1px dotted #ccc; }
 }
 .avatar > a {
     color: #FFFFFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 50px;
     padding: 30px 10px;
     text-align: center;
@@ -4851,7 +4919,7 @@ acronym { border-bottom:1px dotted #ccc; }
     border: 1px solid #E8E7E7;
     color: #B4B4B4;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     height: 40px;
     line-height: 20px;
@@ -4886,11 +4954,11 @@ code {
     margin: 10px 0;
     padding: 5px 10px;
 }
-
+*/
 /*****************************
     BLOG SINGLE POST
 ******************************/
-blockquote .parallax {
+/*blockquote .parallax {
     z-index: -2;
 }
 blockquote {
@@ -4925,11 +4993,11 @@ blockquote i {
 blockquote p {
     color: #fff;
     font-size: 16px;
-}
+}*/
 /*****************************
    EVENT SINGLE IMAGE
 ******************************/
-.event-info .map iframe{
+/*.event-info .map iframe{
     height: auto;
 }
 .map {
@@ -4950,7 +5018,7 @@ blockquote p {
     border-bottom: 1px solid #ececec;
     color: #999999;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 36px;
     text-transform: uppercase;
@@ -4974,11 +5042,11 @@ blockquote p {
 }
 .post-like:hover {
     background: url("../images/heart_active.html") no-repeat scroll 0 49% rgba(0, 0, 0, 0);
-}
+}*/
 /*****************************
     TEAM SINGLE PAGE
 ******************************/
-.team-single {
+/*.team-single {
     border: 1px solid #F0F0F0;
     float: left;
     margin-bottom: 30px;
@@ -5013,7 +5081,7 @@ blockquote p {
 .team-list > li {
     color: #999999;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     line-height: 55px;
     padding-left: 30px;
@@ -5038,12 +5106,12 @@ blockquote p {
     margin-right: 0;
     margin-top: 15px;
 }
-
+*/
 
 /*****************************
     GALLERY PAGES
 ******************************/
-.mas-gallery {
+/*.mas-gallery {
     float: left;
     width: 100%;
 }
@@ -5284,7 +5352,7 @@ blockquote p {
        -o-transition-duration: 0s;
           transition-duration: 0s;
 }
-
+*/
 
 /** ISOTOPE STYLING **/
 .rotating {
@@ -5539,7 +5607,7 @@ blockquote p {
     background: none repeat scroll 0 0 #757575;
     border: 0 none;
     color: #FFFFFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 35px;
     margin-left: 10px;
     padding: 0 30px;
@@ -5669,7 +5737,7 @@ blockquote p {
 .checkout-block h5:before {
     background: none repeat scroll 0 0 #6F6F6E;
     content: "+";
-    font-family: noto sans;
+    font-family: 'Roboto';
     font-size: 21px;
     font-weight: bold;
     height: 30px;
@@ -5758,7 +5826,7 @@ blockquote p {
     float:left;
 }
 .checkout-block p label {
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 400;
     line-height: 20px !important;
@@ -5805,7 +5873,7 @@ blockquote p {
     background: none repeat scroll 0 0 #FAFAFA;
     border: 1px solid #CBCBCB;
     color: #888888;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 12px;
     margin-left: 0;
     padding: 10px 30px;
@@ -5820,7 +5888,7 @@ blockquote p {
     background: none repeat scroll 0 0 #fefefe;
     border: 1px solid rgba(0, 0, 0, 0.15);
     color: #b4b4b4;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     height: 33px;
     padding: 5px 10px;
@@ -5890,7 +5958,7 @@ form.checkout {
     text-align: center;
 }
 mark {
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 600;
     padding: 5px 14px;
@@ -6014,7 +6082,7 @@ mark {
 }
 .thanks-message p {
     float: left;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     padding-left: 20px;
 }
@@ -6224,7 +6292,7 @@ mark {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 0 none;
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     margin: 0;
     padding: 13px 20px;
@@ -6326,7 +6394,7 @@ mark {
 }
 .news-date > span {
     color: #FFFFFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     left: 0;
     margin-top: -33px;
@@ -6411,7 +6479,7 @@ mark {
     width: 100%;
 }
 .error-page h4 {
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 300px;
     font-weight: bold;
 }
@@ -6450,7 +6518,7 @@ mark {
 .login .form-row input.button {
     background-image: none;
     box-shadow: none;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     margin-right: 10px;
     padding: 10px 40px;
@@ -6467,7 +6535,7 @@ mark {
 .amount {
     color: #555555;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
@@ -6556,7 +6624,7 @@ del .amount {
     border: 0 none;
     color: #ffffff;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 17px;
     font-size: 12px;
     margin: 10px 15px;
@@ -6644,7 +6712,7 @@ del .amount {
 }
 .woocommerce-tabs .tabs li a {
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px !important;
     font-weight: 600 !important;
     line-height: 20px;
@@ -6697,7 +6765,7 @@ del .amount {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 0 none;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding: 10px 0;
     width: 100%;
 }
@@ -6780,7 +6848,7 @@ del .amount {
 }
 .pop .alert > p {
     color: #fff;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 600;
 }
@@ -6843,7 +6911,7 @@ p.return-to-shop a {
 }
 .comment-form input[type="submit"] {
     float: right;
-    font-family: open sans, sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
     font-size: 13px !important;
     font-weight: 600 !important;
     margin-top: 20px !important;
@@ -6867,7 +6935,7 @@ p.return-to-shop a {
 .pagination > li a,.pagination > li span {
     border: 1px solid #F0F0F0;
     color: #777777;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 11px;
     height: 36px;
     line-height: 21px;
@@ -7004,7 +7072,7 @@ footer .widget p{
     float: left;
     width: 100%;
     color: #FFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #f1f1f1;
     margin-bottom: 10px;
 }
@@ -7109,7 +7177,7 @@ footer .widget .about .social-media {
 .contact {
     float: left;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .contact li {
     color: #999999;
@@ -7144,7 +7212,7 @@ footer .widget .about .social-media {
     font-size: 13px;
     line-height: 30px;
     margin: 0;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .widget .contact li span {
     float: left;
@@ -7180,7 +7248,7 @@ footer .widget .about .social-media {
     border: 0;
     padding: 0 30px;
     color: #FFF;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
 
     -webkit-border-radius: 3px;
@@ -7254,7 +7322,7 @@ footer .widget .about .social-media {
     transform:scale(1.2);
 }
 .widget-blog > h6 {
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     margin-bottom: 5px;
     white-space: nowrap;
@@ -7297,7 +7365,7 @@ footer .widget .about .social-media {
     border: 1px solid #4d4e4d;
     color: #d7d7d7;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 44px;
     width: 100%;
     padding: 10px 20px;
@@ -7319,7 +7387,7 @@ footer .widget .about .social-media {
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 3px;
-    font-family: noto sans;
+    font-family:'Roboto';
     display: none;
 }
 .widget .quick-message input[type="submit"] {
@@ -7331,7 +7399,7 @@ footer .widget .about .social-media {
     padding: 5px 30px;
     line-height: 23px;
     height: auto;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     color: #e9e9e9;
     text-transform: uppercase;
@@ -7343,7 +7411,7 @@ footer .widget .about .social-media {
     transition:all 0.4s linear;
 }
 .bottom-footer p a {
-    font-weight: 600;
+    font-weight: 300;
     text-transform: ;
 }
 .widget .quick-message input[type="submit"]:hover {
@@ -7356,10 +7424,11 @@ footer .widget .about .social-media {
     width: 100%;
 }
 .bottom-footer p {
+    font-family: 'Roboto';
     color: #FFF;
     font-size: 12px;
     text-align: center;
-    font-family: open sans, sans-serif;
+  
 }
 
 
@@ -7588,7 +7657,7 @@ footer .tagclouds > a:before, footer .widget li:before {
 }
 .comment-widget h5 {
     color: #777;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 15px;
@@ -7605,7 +7674,7 @@ footer .tagclouds > a:before, footer .widget li:before {
 .comment-widget span {
     color: #939393;
     float: left;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 11px;
     line-height: 14px;
     width: 50%;
@@ -7673,7 +7742,7 @@ td {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.3px;
 }
 .textwidget img {
@@ -7691,7 +7760,7 @@ td {
     width: 100%;
 }
 strong {
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 .widget_shopping_cart_content li, ul.product_list_widget li {
@@ -7852,7 +7921,7 @@ ul.product_list_widget li .star-rating {
     color: #FFF;
     line-height: 24px;
     font-size: 11px;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-weight: 700;
 }
 .colors > div a:hover{
@@ -8220,7 +8289,7 @@ margin: 10px 0 2px 0;
 .pp_description {
     color: #3f3f3f;
     display: none;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 600;
     margin-left: 0;
@@ -8474,7 +8543,7 @@ z-index: 9999;
     border: 1px solid #C6DADE;
     color: #B4B4B4;
     cursor: default;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     height: 33px;
     padding: 5px 40px 5px 20px;
@@ -8513,7 +8582,7 @@ z-index: 9999;
     background: none repeat scroll 0 0 #FFFFFF;
     border-top: 1px solid #EAEAEA;
     cursor: pointer;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     line-height: 40px;
     list-style: none outside none;
@@ -8573,7 +8642,7 @@ z-index: 9999;
 }
 .title3 h2 {
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 25px;
@@ -8938,7 +9007,7 @@ z-index: 9999;
     margin: 0px auto;
     float: none;
     display: table;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     padding: 0;
     height: 0;
@@ -9006,7 +9075,7 @@ z-index: 9999;
 .item-detail > span {
     color: #e8e8e8;
     float: left;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 0;
@@ -9228,7 +9297,7 @@ z-index: 9999;
     background: none repeat scroll 0 0 #fff;
     color: #555555;
     content: "ON";
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-style: italic;
     font-weight: 700;
@@ -9305,7 +9374,7 @@ section#options ul.option-set li a {
     text-transform: uppercase;
     border-radius: 4px;
     color: #6a6969;
-    font-family: open sans, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     -webkit-box-shadow: 0 0 11px #e5e5e5 inset;
     -moz-box-shadow: 0 0 11px #e5e5e5 inset;
@@ -9374,7 +9443,7 @@ section#options ul.option-set li a.selected{
 .title4 > h2 {
     color: #585858;
     display: table;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 22px;
     margin: 0 auto;
     position: relative;
@@ -9397,7 +9466,7 @@ section#options ul.option-set li a.selected{
     margin-bottom: 45px;
 }
 .title5 > h2 {
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 22px;
     color: #585858;
     padding-bottom: 10px;
@@ -9413,7 +9482,7 @@ section#options ul.option-set li a.selected{
     margin-bottom: 45px;
 }
 .title6 h2{
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 28px;
     color: #323232;
 }
@@ -9429,7 +9498,7 @@ section#options ul.option-set li a.selected{
 .title7 h2 {
     color: #323232;
     display: table;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 24px;
     font-weight: 700;
     margin: 0 auto;
@@ -9573,7 +9642,7 @@ section#options ul.option-set li a.selected{
 .animal-detail > ul li span {
     background: none repeat scroll 0 0 #4e4e4e;
     color: #fff;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 12px;
     font-weight: 600;
     left: -50px;
@@ -9786,7 +9855,7 @@ section#options ul.option-set li a.selected{
 }
 .coloured-donation > h2 {
     color: #fff;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 700;
     line-height: 28px;
@@ -9800,7 +9869,7 @@ section#options ul.option-set li a.selected{
 .donation-amount i {
     font-style: normal;
     display: inline-block;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 18px;
     color: #FFF;
     font-weight: 600;
@@ -9815,7 +9884,7 @@ section#options ul.option-set li a.selected{
     border-radius: 3px;
 }
 .donation-amount > span {
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 13px;
     color: #FFF;
     float: left;
@@ -9902,7 +9971,7 @@ section#options ul.option-set li a.selected{
     background: none repeat scroll 0 0 black;
     color: #fff;
     float: left;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 12px;
     font-weight: 600;
     padding: 15px 30px 15px 70px;
@@ -9966,7 +10035,7 @@ section#options ul.option-set li a.selected{
 .booking-counter > ul li span {
     padding: 0;
     margin: 0;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 20px;
     font-weight: 600;
     color: #555;
@@ -10030,7 +10099,7 @@ section#options ul.option-set li a.selected{
 }
 .donation-bar h3 {
     color: #FFF;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 26px;
     font-weight: 600;
     float: left;
@@ -10041,12 +10110,12 @@ section#options ul.option-set li a.selected{
     margin: 0 auto;
     padding: 8px 40px;
     border-radius: 3px;
-    font-family: open sans;
+    font-family: 'Roboto';
     color: #555555;
 }
 .donation-bar h5 {
     float: left;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 15px;
     color: #FFF;
     line-height: 36px;
@@ -10191,7 +10260,7 @@ section#options ul.option-set li a.selected{
 .pop-message > h4 {
     color: #969696;
     float: left;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -10199,7 +10268,7 @@ section#options ul.option-set li a.selected{
 }
 .pop-message > span {
     float: left;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 13px;
     font-style: italic;
     width: 100%;
@@ -10357,7 +10426,7 @@ section#options ul.option-set li a.selected{
 .sermon-img > span {
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
     color: #969696;
-    font-family: noto sans;
+    font-family:'Roboto';
     font-size: 11px;
     left: 0;
     padding: 10px 20px;
@@ -10391,7 +10460,7 @@ section#options ul.option-set li a.selected{
 .sermon-img h3 {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
     color: #fff;
-    font-family: open sans;
+    font-family: 'Roboto';
     font-size: 15px;
     line-height: 20px;
     padding: 15px;
@@ -10744,7 +10813,7 @@ fieldset[disabled] .btn-primary.active {
   background-color: white;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: ''Roboto'', 'Helvetica Neue', Arial, sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
@@ -10777,6 +10846,7 @@ body {
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
+  color: #ffffff ;
 }
 
 
@@ -10789,10 +10859,16 @@ body {
   margin-bottom: 0;
 }
  hr{
-  border-color: #f2f2f2;
+  border-color: gray;
   border-width: 3px;
   max-width: 300px;
+  border: 0;
+    height: 1px;
+    background:white; 
+    /*background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));*/
 }
+
+
 hr.light {
   border-color: white;
 }
