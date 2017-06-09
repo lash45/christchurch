@@ -74,7 +74,7 @@ body{
     padding-top: 100px; 
     float: left;
     width: 100%;
-    position:relative;
+    position:absolute;
     font-family: 'Roboto';
     font-weight: 100;
 }
@@ -162,21 +162,26 @@ section {
 .block .container{
     padding:0;
 }
+/*
 .block.remove-gap {
-    padding-top: 0;
+
+    padding-top: 0
+    padding-left 0 ;
 }
 .remove-ext {
     float: left;
     margin-bottom: -30px;
     width: 100%;
 }
-.remove-bottom-gap {
-    padding-bottom: 0;
-}
+*/
 iframe{
     width: 100%;
     border: 0;
 }
+
+
+
+
 .parallax {
     height: 100%;
     margin: 0;
@@ -205,6 +210,8 @@ iframe{
     width: 100%;
     z-index: 0;
 }
+
+
 
 .whitish:before {
     background: none repeat scroll 0 0 #f9f9f9;
@@ -1331,6 +1338,8 @@ header.header8.sticky nav {
     WELCOME MESSAGE
 ******************************/
 .welcome {
+    padding: 30px 30px;
+    margin: 0px;
     float: left;
     width: 100%;
     font-family: 'Roboto';
@@ -1357,9 +1366,11 @@ header.header8.sticky nav {
 }
 .welcome > a {
     border: 1px solid;
-    color: #FFF;
+   /* color: #000;
+    background: transparent;*/
     font-size: 13px;
-    padding: 10px 30px;
+    font-weight: 300;
+   padding: 10px 30px;
     display: table;
     margin: 0 auto;
 
@@ -1377,7 +1388,7 @@ header.header8.sticky nav {
 }
 .welcome > a:hover{
     color: #FFF;
-    background: none;
+    /*background: none;*/
 }
 
 /*****************************
@@ -2128,10 +2139,25 @@ i {
     padding: 0px 20px;
 }
 
+#about{
+    padding: 0px;
+}
+#ministries{
+padding: 0px 0px;
+margin: 30px 0px;
+width : 100%;
+}
+
+
 #messages{
-    margin: 0px;
-    padding: 20px 0px;
+    margin: 30px 0px;
+   padding: 20px 0px;
     color: #ffffff ;
+}
+.o-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 }
 
 .social{
@@ -10717,7 +10743,15 @@ h4.new-title a:hover,
 .ticket-booking .booking-btn span:after  {
     border-bottom-color: #f0283b; 
 }
-.btn-default {
+
+.outline{
+        background: none;
+        border: 1px solid #fff;
+
+}
+
+
+/*.btn-default {
   color: #222222;
   background-color: white;
   border-color: white;
@@ -10739,7 +10773,7 @@ h4.new-title a:hover,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
   background-image: none;
-}
+}*/
 /*.btn-default.disabled,
 .btn-default[disabled],
 fieldset[disabled] .btn-default,
@@ -10761,9 +10795,12 @@ fieldset[disabled] .btn-default.active {
   background-color: white;
   border-color: white;
 }*/
-.btn-default .badge {
+/*.btn-default .badge {
   color: white;
   background-color: #222222;
+}
+
+
 }
 .btn-primary {
   color: white;
@@ -10812,22 +10849,45 @@ fieldset[disabled] .btn-primary.active {
 .btn-primary .badge {
   color: #F05F40;
   background-color: white;
-}
-.btn {
+}*/
+/*.btn {
   font-family: ''Roboto'', 'Helvetica Neue', Arial, sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
   text-transform: uppercase;
 }
+
+*/
+.babashadow{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: none;
+    border-color: #fff; /*set the color you want here*/
+}
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff; /*set the color you want here*/
+}
+
+.outline:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .btn-xl {
   padding: 15px 30px;
+  border-radius: 5px; 
 }
 ::-moz-selection {
   color: white;
   text-shadow: none;
   background: #222222;
-}
+}*/
 ::selection {
   color: white;
   text-shadow: none;
@@ -10877,6 +10937,7 @@ hr.light {
 .bg-dark {
   background-color: /*#C8C8C8*/#b2beb5;
   color: white;
+  padding: 20px 0px ;
 }
 section {
   padding: 100px 0;
