@@ -65,7 +65,9 @@ $(function() {
         $(this).next('.checkout-content').slideToggle();
     });
 
+/***ABOUT***/
 
+$('about').addClass('bounce');
  
 
 /*** PASTORS CAROUSEL ***/      
