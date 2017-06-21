@@ -1,5 +1,5 @@
 body{
-     padding-top: 60px;
+     padding-top: 50px;
     margin: 0px;
 
     font-family: 'Roboto';
@@ -20,16 +20,8 @@ nav a img{
 @media(max-width:  992px){
 
     nav a img {
-        width: 300px;
+        width: 200px;
     }
-
-
-.navbar-brand{
-    float: left;
-
-   margin-left: 0px;
-}
-
 
 }
 
@@ -37,13 +29,15 @@ nav a img{
 
 .navbar {
     background-color:   #F8F8F8;
+    padding: 0px;
     
 }
 
 .navbar-brand{
     float: left;
 
-   margin-left: 70px;
+   margin-left: 50px;
+
 }
 /*@media(max-width: 767){
  .navbar-toggler-icon{
@@ -60,7 +54,7 @@ nav a img{
     border: none;
     background: transparent;
     background-color: transparent;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
